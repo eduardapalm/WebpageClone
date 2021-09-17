@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #fefefe;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  margin: 30px 0;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  color: #66BFBF;
+  font-weight: 600;
+
+  margin: 0;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+  font-size: 17px;
+}
+
+h2 span {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+p {
+  color: #40514e;
+}
+
+hr {
+  border-top: dotted #EAF6F6;
+  border-width: 5px 0 0 0;
+  width: 40px;
+  margin-bottom: 100px;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+}
+
+.middle-container {
+  margin-top: 70px;
+}
+
+.middle-container h2 {
+  font-weight: 500;
+}
+
+.profile img {
+  width: 190px;
+  height: 190px;
+  border-radius: 100%;
+  margin-bottom: 30px;
+}
+
+.profile p {
+  width: 30%;
+  margin: 40px auto 90px;
+}
+
+.top-cloud {
+  position: relative;
+  left: 300px;
+  top: 60px;
+  margin-bottom: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 320px;
+  left: 210px;
+  bottom: 230px;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row img {
+  border-radius: 100%;
+  width: 25%;
+  height: 25%;
+}
+
+.skill-row .computer-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row .cupcake-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 50px auto;
+}
+
+.contact-me h3 {
+  margin-top: 40px;
+}
+
+.contact-me p{
+  margin: 40px 0 60px;
+}
+
+.contact-me .btn {
+  background: linear-gradient(180deg, #11999e86 0%, rgb(24, 141, 145) 100%);
+  color: #EAF6F6;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 15px;
+  width: auto;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.bottom-container p {
+  margin-bottom: 0;
+  color: #EAF6F6;
+  margin-top: 40px;
+}
+
+.bottom-container a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #11999E;
+  margin: 0 20px;
+  text-decoration: none;
+}
